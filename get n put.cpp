@@ -4,13 +4,10 @@
 using namespace std;
 int main()
 {
-	char ch;
+	string ch;
 	int count;
 	cout<<"write data\n";
-	while(ch!='\n')
-	{
-		cin.get(ch);
-		cout.put(ch);
-		count++;
-	}
-}
+	cin.get(ch);
+	cout.put(ch);
+	return 0;
+}	
